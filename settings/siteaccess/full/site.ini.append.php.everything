@@ -1,0 +1,50 @@
+<?php /* #?ini charset="utf-8"?
+
+[DatabaseSettings]
+SQLOutput=disabled
+DebugTransactions=disabled
+
+[DebugSettings]
+DebugOutput=enabled
+ScriptDebugOutput=enabled
+DebugByIP=disabled
+DebugIPList[]=127.0.0.1
+DebugByUser=disabled
+DebugUserIDList[]
+DebugUserIDList[]=14
+DebugRedirection=disabled
+DisplayDebugWarnings=enabled
+DebugLogOnly=disabled
+DebugToolbar=enabled
+
+[SiteAccessSettings]
+DebugAccess=disabled
+DebugExtraAccess=disabled
+
+[RegionalSettings]
+Debug=disabled
+DevelopmentMode=disabled
+TranslationCache=disabled
+
+[TemplateSettings]
+Debug=enabled
+ShowXHTMLCode=disabled
+ShowMethodDebug=disabled
+ShowUsedTemplates=enabled
+TemplateCache=disabled
+TemplateCompile=disabled
+# When enabled the system will perform more checks like modification time on
+# compiled vs source file and will reduce need for clearing template compiled
+# files.
+DevelopmentMode=enabled
+
+[ContentSettings]
+ViewCaching=disabled
+
+[MailSettings]
+#Transport=file
+DebugSending=disabled
+# If enabled, all emails will be sent to DebugReceiverEmail instead of to their original recipient(s)
+DebugReceiverEmail=admin@localhost
+
+*/ ?>

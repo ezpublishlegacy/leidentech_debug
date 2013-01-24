@@ -1,0 +1,20 @@
+<? /*
+[MailSettings]
+Transport=file
+
+[ContentSettings]
+ViewCaching=disabled
+
+[DebugSettings]
+DebugOutput=disabled
+DebugRedirection=disabled
+
+[TemplateSettings]
+Debug=disabled
+ShowXHTMLCode=disabled
+ShowUsedTemplates=disabled
+DevelopmentMode=enabled
+TemplateCache=disabled
+TemplateCompile=disabled
+
+*/ ?>
